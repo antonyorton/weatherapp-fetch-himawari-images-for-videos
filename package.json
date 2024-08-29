@@ -1,0 +1,17 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "An AWS lambda function for fetching images from JMA and pushing to an S3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "path": "^0.12.7"
+  }
+}
